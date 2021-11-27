@@ -1,0 +1,15 @@
+main: pl.ibcgames.mclvotifier.Votifier
+name: MCL-Votifier
+authors: [kaziu687, kisi69]
+website: https://mc-list.org
+version: @version@
+commands:
+  mcl-test:
+    description: Test vote reward's commands
+    usage: /mcl-test
+  mcl-reward:
+    description: Claim reward for vote at mc-list.org
+    usage: /mcl-reward
+  mcl-vote:
+    description: See voting website address
+    usage: /mcl-vote
