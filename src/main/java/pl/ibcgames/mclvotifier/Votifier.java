@@ -23,7 +23,7 @@ public final class Votifier extends JavaPlugin {
         if (token == null || token.equalsIgnoreCase("paste_server_id_here")) {
             this.warning("No server id found in MCL-Votifier config");
             this.warning("How to use this plugin? See tutorial at:");
-            this.warning("https://mc-list.org/mcl-votifier-plugin");
+            this.warning("https://minecraft-servers.gg/mcl-votifier-plugin");
         }
 
         this.getCommand("mcl-vote").setExecutor(new Vote());
