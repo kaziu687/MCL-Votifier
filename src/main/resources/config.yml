@@ -1,5 +1,5 @@
 # Tutorial about configuring this plugin can be found at:
-# https://mc-list.org/mcl-votifier-plugin
+# https://minecraft-servers.gg/mcl-votifier-plugin
 server_id: paste_server_id_here
 
 # If you want to restrict some users from claiming a reward with /mcl-reward command you can enable "reqire_permission" feature
@@ -12,5 +12,5 @@ require_permission: false
 # {PLAYER} will be replaced with /mcl-reward command sender's username
 commands_on_reward:
   - "give {PLAYER} stone 10"
-  - "say {PLAYER} voted at mc-list.org!"
+  - "say {PLAYER} voted at Minecraft-Servers.gg!"
   - "say Use /mcl-vote command if you want to vote"
