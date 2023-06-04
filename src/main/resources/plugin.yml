@@ -1,7 +1,7 @@
 main: pl.ibcgames.mclvotifier.Votifier
 name: MCL-Votifier
 authors: [kaziu687, kisi69]
-website: https://mc-list.org
+website: https://minecraft-servers.gg
 version: @version@
 commands:
   mcl-test:
