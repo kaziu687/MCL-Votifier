@@ -20,7 +20,7 @@ public class Test implements CommandExecutor {
             if (token == null || token.equalsIgnoreCase("paste_server_id_here")) {
                 sender.sendMessage(Utils.message("&cNo server id found in MCL-Votifier config"));
                 sender.sendMessage(Utils.message("&cHow to use this plugin? See tutorial at:"));
-                sender.sendMessage(Utils.message("&ahttps://mc-list.org/mcl-votifier-plugin"));
+                sender.sendMessage(Utils.message("&ahttps://minecraft-servers.gg/mcl-votifier-plugin"));
                 return;
             }
 
