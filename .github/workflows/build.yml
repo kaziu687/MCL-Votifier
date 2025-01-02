@@ -27,5 +27,5 @@ jobs:
       - name: Publish files
         uses: actions/upload-artifact@v4
         with:
-          name: Fabric
+          name: Bukkit
           path: build/libs/
